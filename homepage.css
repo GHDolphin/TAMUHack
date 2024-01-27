@@ -17,9 +17,14 @@ body, html {
     width: 20%;
     float: left;
 }
-.head{
+head {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
 
-}
 #Science{
     background-color: rgb(252, 164, 164);
 }

@@ -3,17 +3,16 @@
 }
 body, html {
     scroll-behavior: smooth;
-    background-color: #ffffff;
-    display: flex;
-    align-items: left;
-    margin:auto;
-    height: 100%
-    margin: 0;
+    background-color: #dae9a2;
+
+    align-items: center;
+    /* height: 100% */
+    text-align: center;
     
   }
 .tablink{
-    background-color: rgb(51, 51, 98);
-    color:yellow;
+    background-color: rgb(105, 105, 222);
+    color:rgb(255, 255, 255);
     width: 20%;
     float: left;
 }
@@ -25,6 +24,15 @@ head {
     font-size: 30px;
   }
 
+h3{
+    font-size:60px;
+}
+h1{
+    font-size:100px;
+}
+p{
+    font-size:50px;
+}
 #Science{
     background-color: rgb(252, 164, 164);
 }
@@ -39,4 +47,10 @@ head {
 }
 #Finance{
     background-color: rgb(181, 181, 255);
+}
+.tamuHACK{
+    background-color: rgb(105, 105, 222);
+    color:rgb(255, 255, 255);
+    width: 20%;
+    float: left;
 }

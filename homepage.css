@@ -4,12 +4,16 @@
 body, html {
     scroll-behavior: smooth;
     background-color: #dae9a2;
-
+    width: 1520px;
     align-items: center;
     /* height: 100% */
     text-align: center;
     
   }
+.topnav{
+    height:200px;
+    background-color: #1abc9c;
+}
 .tablink{
     background-color: rgb(105, 105, 222);
     color:rgb(255, 255, 255);

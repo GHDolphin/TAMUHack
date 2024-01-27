@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #c8ffc9;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    max-width: 500px;
+    
+  }

@@ -98,8 +98,10 @@ h1{
 }
 
 .U{
-    color: rgb(155, 9, 9);
+    color: rgb(208, 49, 49);
+    font-family:'Staatliches', sans-serif;
 }
+
 h2{
     font-family:'Rubik';
     font-size:40px;
@@ -115,6 +117,10 @@ p{
     color:rgb(154, 154, 189);
     margin-bottom: 50px;
      
+}
+.heading-title{
+    font-size:50px;
+    margin-top:100px;
 }
 .island1{
     position: relative;
@@ -182,7 +188,7 @@ p{
 }
 
 #Science p.outset {
-    border-style: outset;
+    border-style: outset;   
 }
 .final{
     background-color: rgb(105, 105, 222);

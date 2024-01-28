@@ -7,7 +7,7 @@
 body, html {
     font-family: 'Staatliches', sans-serif;
     scroll-behavior: smooth;
-    background-color: #59e3c8;
+    background-color: #abe2d7;
     background-image: (rgb(30, 143, 236),rgb(183, 255, 248));
     align-items: center;
     height: 100%;
@@ -27,7 +27,7 @@ body, html {
     margin-top:-15px;
 }
 .main{
-background-color: rgb(125, 230, 236);
+background-color: #c0fcf0;
 
 
 }
@@ -38,7 +38,7 @@ background-color: rgb(125, 230, 236);
 }
 .topnav{
     font-family: 'Staatliches', sans-serif;
-    background-color: #59e3c8;
+    background-color: #abe2d7;
     text-align:left;
     color:black;
     flex: 1;
@@ -47,7 +47,7 @@ background-color: rgb(125, 230, 236);
 
 }
 .tablink{
-    background-color: rgb(105, 105, 222);
+    background-color: rgb(133, 133, 255);
     color:rgb(255, 255, 255);
     height:50px;
     size:20px;
@@ -59,7 +59,7 @@ background-color: rgb(125, 230, 236);
 head {
     font-family: 'Staatliches', sans-serif;
     text-align: center;
-    background: #59e3c8;
+    background: #acffee;
     color: white;
     font-size:60px;
   }
@@ -72,7 +72,7 @@ h3{
 h1{
     font-family: 'Staatliches', sans-serif;
     font-size:80px;
-    color:rgb(28, 28, 95);
+    color:rgb(55, 70, 111);
     
 }
 h2{
@@ -81,7 +81,7 @@ h2{
     color:rgb(57, 120, 50);
 }
 p{
-    font-size:50px;
+    font-size:20px;
     font-family: 'Rubik';
 }
 #small-title{
@@ -91,20 +91,44 @@ p{
     margin-bottom: 50px;
      
 }
+#island1{
+    height:60px;
+    width: 60px;
+    right:400px;
+    bottom:100px;
+}
+#island2{
+    height:60px;
+    width: 60px;
+    right:200px;
+    bottom:50px;
+}
+#island3{
+    height:60px;
+    width: 60px;
+    right:400px;
+    bottom:200px;
+}
 #Science{
-    background-color: rgb(252, 164, 164);
+    background-color: rgb(253, 176, 176);
 }
 #Technology{
-    background-color: rgb(255, 215, 139);
+    background-color: rgb(255, 217, 164);
 }
 #Engineering{
-    background-color: rgb(255, 255, 176);
+    background-color: rgb(255, 248, 194);
+
 }
 #Mathematics{
-    background-color: rgb(165, 255, 165);
+    background-color: rgb(170, 250, 170);
+
 }
 #Finance{
-    background-color: rgb(181, 181, 255);
+    background-color: rgb(181, 190, 255);
+
+}
+.cool-title{
+    font-size:40px;
 }
 .final{
     background-color: rgb(105, 105, 222);
@@ -115,3 +139,80 @@ p{
     background-color:#1abc9c;
     size:15px;
 }
+#newbody {
+    background-image: url("_fbc0e13b-bd89-4da6-bb62-15f71497ff7a.jpg");
+    
+}
+
+.block{
+    position: relative;
+    height: 50px;
+    width: 50px; 
+}
+
+.blockimg
+{
+    height: 50px;
+    width: 50px;
+}
+.block2{
+    height: 50px;
+    width: 50px;
+}
+.block2img {
+    height: 100px;
+    width: 100px;
+    position:relative;
+    right:350px;
+    bottom:500px;
+}
+.blockimg3{
+    width:600px;
+    height:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.mymodal{
+    top: 100px;
+    bottom:1
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+   
+}
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

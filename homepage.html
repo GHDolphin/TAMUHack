@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
     <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="testing.js">
     </div>
 </head>
 
@@ -37,10 +36,10 @@
             <div id="Science" class = "content">
                 <h3>S   c   i   e   n   c   e</h3>
                 <div class="science">
-                    
                 </div>
-                <p>Test 1 </p>
-    
+                <p>Majors</p>
+                <p></p>
+                </div>   
             </div>
             <div id = "Technology" class ="content">
                 <h3>T   e   c   h   n   o   l   o   g   y</h3>
@@ -60,11 +59,40 @@
             <div id = "Finance" class ="content">
                 <h3>F   i   n   a   n   c   e</h3>
                 <p>Test 5</p>
-    
+            </div>
+            <div class = "newbody"> 
+                <!-- Trigger/Open The Modal -->
+                <button class = "blockimg3" id="myBtn"><img class = "blockimg3" src = "_fbc0e13b-bd89-4da6-bb62-15f71497ff7a.jpg"></button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img class = "close" src = "Untitled_Artwork.png"> 
+                    <p> 
+                        test
+                    </p>
+                </div>
+                </div>
+                <a href = "https://www.imdb.com/title/tt6718170/" target = _blank class = island1> 
+                    <img src = "Island.png" class =block2img >
+                </a>
+                <a href = "https://www.imdb.com/title/tt6718170/" target = _blank class = island2> 
+                    <img src = "Island.png" class =block2img >
+                </a>
+                <a href = "https://www.imdb.com/title/tt6718170/" target = _blank class = island3> 
+                    <img src = "Island.png" class =block2img >
+                </a>
+
+                <script src="Science_track_world.js"> 
+                </script>
             </div>
             <script>
                 function openPage(name, element, color){
                     tabcontent = document.getElementsByClassName("content");
+                    
                     for (i = 0; i < tabcontent.length; i++) {
                         tabcontent[i].style.display = "none";
                     }
@@ -73,9 +101,13 @@
                       tablinks[i].style.backgroundColor = "";
                     }
                     document.getElementById(name).style.display = "block";
+                    document.getElementById(name).style.visibilty = "";
 }
                 
             </script>
+            <div class = "botnav">
+                    
+            </div>
             <footer>
                 <p>TAMUHack BY TEAM</p>
                 <div class="final" id = "botnav">
@@ -85,7 +117,7 @@
                         </a>
                     </button>
                 </div>
-        </div>
+
        
         </footer>
 

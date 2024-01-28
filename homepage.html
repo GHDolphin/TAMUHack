@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<center>
 <html>
 
 <head>
@@ -7,40 +6,38 @@
     <title>Find your future!</title>
     <meta charset = "utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="testing.js">
     </div>
 </head>
 
-<center>
 
 <body>
     <div class = "alltop">
     <div class = "topnav">
         <h1 class="cool-title">Future for <span class ="U">U</span></h1>
         <h1 class = "heading-title">Find your future!</h1>
-        <h2 class="small-title">Discover the choices, choose your path</h2>
+        <h2 class="small-title">Discover the choices, choose your path!</h2>
         <h2>Explore careers!</h2>
-        <p class = "learn">What would you like to learn about?
-        </p>
-        <p></p>
+        <p class = "learn">What field would you like to learn about?</p>
        
-    </div>
+    </div>  
+        <button class="tablink" onclick="openPage('Science')">Science</button>
+        <button class="tablink" onclick="openPage('Technology')">Technology</button>
+        <button class="tablink" onclick="openPage('Engineering')">Engineering</button>
+        <button class="tablink" onclick="openPage('Math')">Math</button>
+        <button class="tablink" onclick="openPage('Finance')">Finance</button>
     <div class="main">
         <!-- <img class="test" src="BackgroundImage.png" alt""")> -->
+        
+        
         <div class="islands">
             <p></p>
             
             
             
-            <button class="tablink" onclick="openPage('Science')">Science</button>
-            <button class="tablink" onclick="openPage('Technology')">Technology</button>
-            <button class="tablink" onclick="openPage('Engineering')">Engineering</button>
-            <button class="tablink" onclick="openPage('Math')">Math</button>
-            <button class="tablink" onclick="openPage('Finance')">Finance</button>
-        <div class = "stem">
+            
+        <!-- <div class = "stem"> -->
             <div id="Science" class = "content">
                 <h3>S   c   i   e   n   c   e</h3>
                 <div class="science">
@@ -71,9 +68,9 @@
             </div>
             <div id = "Explore" class ="content">
                 <h3>EXPLORE YOUR  FUTURE</h3>
-                <p>Go On... Take A Look</p>
+                <p>Go On... Take A Look and Visit an Island to Learn More!</p>
         </div>
-        </div>
+        <!-- </div> -->
             <div class = "newbody"> 
                 <!-- Trigger/Open The Modal -->
                 
@@ -117,7 +114,7 @@
                     for (i = 0; i < tablinks.length; i++) {
                       tablinks[i].style.backgroundColor = "";
                     }
-                    document.getElementById(name).style.display = "block";
+                    document.getElementById(name).style.display = "inline-block";
                     document.getElementById(name).style.visibilty = "";
                     
 }   

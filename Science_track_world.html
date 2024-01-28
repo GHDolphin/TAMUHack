@@ -1,42 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Scence_track_world.css">
+    <style>
+        /* Set up the container for the images */
+        .image-pointer {
+          position: relative;
+          width: 300px; /* Adjust the width as needed */
+          height: 200px; /* Adjust the height as needed */
+          overflow: hidden;
+        }
+    
+        /* Style for the images */
+        .image-pointer img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          transition: opacity 1s ease-in-out;
+        }
+    
+        /* Hide the second image initially */
+        .image-pointer img:nth-child(2) {
+          opacity: 0;
+        }
+      </style>
+       <style>
+        /* Set up the container for the image */
+        .image-container {
+          position: absolute;
+        }
+    
+        /* Style for the image */
+        .image-container img {
+          width: 50px; /* Adjust the width as needed */
+          height: 50px; /* Adjust the height as needed */
+          position: absolute;
+        }
+      </style>
 </head>
+
 <body>
+    <div class="image-pointer" id="imageContainer">
+        <img src="https://th.bing.com/th/id/OIP.VEhlSj01_sNxUEFpGYIPMwHaII?rs=1&pid=ImgDetMain" alt="Follow Pointer Image" id="followPointerImage">
+      </div>
     
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const imageContainer = document.getElementById('imageContainer');
+          const followPointerImage = document.getElementById('followPointerImage');
     
-   
-<!-- Trigger/Open The Modal -->
-<button class = "blockimg3" id="myBtn"><img src = "https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain"></button>
+          document.addEventListener('mousemove', function(event) {
+            // Set the image position to follow the pointer
+            const x = event.clientX;
+            const y = event.clientY;
+    
+            imageContainer.style.left = x + 'px';
+            imageContainer.style.top = y + 'px';
+          });
+        });
+      </script>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+    <div class="image-container">
+        <img src="https://cdn.britannica.com/17/234217-050-F74C669C/Beagle-hound-dog-puppy.jpg" alt="Image 1">
+        <img src="https://www.thesprucepets.com/thmb/WkD09Fd67ehwvmpN038IF5cPZI4=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-592212973-b36055f7029c44cb90cd337f4705a8b0.jpg" alt="Image 2">
+      </div>
+    
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Set up the interval to switch images every second
+          setInterval(function() {
+            const imageContainer = document.querySelector('.image-container');
+            const currentImage = imageContainer.querySelector('img:not([style*="opacity: 0"])');
+            const nextImage = currentImage.nextElementSibling || imageContainer.firstElementChild;
+    
+            currentImage.style.opacity = 0;
+            nextImage.style.opacity = 1;
+          }, 1000);
+        });
+      </script>
+    
+    <div class="grandparent">
+    <div class="parent">
+        
+        
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <img src = "https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain"> 
-    <p> 
-        test
-    </p>
-  </div>
-</div>
+    </div>
+    </div>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class = "blockimg3"><img class="blockimg3"
+        src="https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain"></button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain">
+            
+        </div>
+    </div>
 
 
-<a href = "https://www.imdb.com/title/tt6718170/" target =_blank  class = block>
-    <img src = "https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain" class =blockimg>
-</a>
-<a href = "https://www.imdb.com/title/tt6718170/" target = _blank class = block2> 
-    <img src = "https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain" class =block2img >
-</a>
+    <a href="https://www.imdb.com/title/tt6718170/" target=_blank class=block>
+        <img src="https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain" class=blockimg>
+    </a>
+    <a href="https://www.imdb.com/title/tt6718170/" target=_blank class=block2>
+        <img src="https://th.bing.com/th/id/OIP.neoCq-fk2rTsiJLIFFAydgHaHa?rs=1&pid=ImgDetMain" class=block2img>
+    </a>
 
-<script src="/Science_track_world.js"> 
-</script>
+    <script src="/Science_track_world.js">
+    </script>
 </body>
 
 </html>

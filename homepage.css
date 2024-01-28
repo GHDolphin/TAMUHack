@@ -4,12 +4,22 @@
 body, html {
     scroll-behavior: smooth;
     background-color: #dae9a2;
-    width: 1520px;
     align-items: center;
     /* height: 100% */
     text-align: center;
     
   }
+#main img[src="BackgroundImage.png"]{
+    object-fit:cover;
+    position: absolute;
+}
+.main{
+    position:relative;
+}
+.islands{
+    position:relative;
+    text-align: center;
+}
 .topnav{
     height:200px;
     background-color: #1abc9c;

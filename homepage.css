@@ -7,7 +7,11 @@
 body, html {
     font-family: 'Staatliches', sans-serif;
     scroll-behavior: smooth;
+<<<<<<< HEAD
     background-color: #abe2d7;
+=======
+    background-color: #59e3c8;
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
     background-image: (rgb(30, 143, 236),rgb(183, 255, 248));
     align-items: center;
     height: 100%;
@@ -27,7 +31,11 @@ body, html {
     margin-top:-15px;
 }
 .main{
+<<<<<<< HEAD
 background-color: #c0fcf0;
+=======
+background-color: rgb(125, 230, 236);
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 
 
 }
@@ -38,7 +46,11 @@ background-color: #c0fcf0;
 }
 .topnav{
     font-family: 'Staatliches', sans-serif;
+<<<<<<< HEAD
     background-color: #abe2d7;
+=======
+    background-color: #59e3c8;
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
     text-align:left;
     color:black;
     flex: 1;
@@ -59,7 +71,11 @@ background-color: #c0fcf0;
 head {
     font-family: 'Staatliches', sans-serif;
     text-align: center;
+<<<<<<< HEAD
     background: #acffee;
+=======
+    background: #59e3c8;
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
     color: white;
     font-size:60px;
   }
@@ -120,16 +136,23 @@ p{
 
 }
 #Mathematics{
+<<<<<<< HEAD
     background-color: rgb(170, 250, 170);
 
+=======
+    background-color: rgb(115, 174, 115);
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
 #Finance{
     background-color: rgb(181, 190, 255);
 
 }
+<<<<<<< HEAD
 .cool-title{
     font-size:40px;
 }
+=======
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 .final{
     background-color: rgb(105, 105, 222);
     size:20px;
@@ -140,14 +163,23 @@ p{
     size:15px;
 }
 #newbody {
+<<<<<<< HEAD
     background-image: url("_fbc0e13b-bd89-4da6-bb62-15f71497ff7a.jpg");
     
+=======
+    background-image: url("fbc0e13b-bd89-4da6-bb62-15f71497ff7a.jpg");
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
 
 .block{
     position: relative;
     height: 50px;
+<<<<<<< HEAD
     width: 50px; 
+=======
+    width: 50px;
+    
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
 
 .blockimg
@@ -158,10 +190,15 @@ p{
 .block2{
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
 .block2img {
     height: 100px;
     width: 100px;
+<<<<<<< HEAD
     position:relative;
     right:350px;
     bottom:500px;
@@ -171,6 +208,13 @@ p{
     height:600px;
     margin-left:auto;
     margin-right:auto;
+=======
+}
+.blockimg3{
+    width:200px;
+    height: 200px;
+
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
 .mymodal{
     top: 100px;
@@ -207,8 +251,13 @@ p{
     font-weight: bold;
     height: 100px;
     width: 100px;
+<<<<<<< HEAD
    
 }
+=======
+    align-items:center;
+  }
+>>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
   
   .close:hover,
   .close:focus {

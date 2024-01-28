@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 *{    font-family: 'Rubik';
     box-sizing: border-box;
 
 }
 body, html {
-    font-family: 'Rubik';
+    font-family: 'Staatliches', sans-serif;
     scroll-behavior: smooth;
-    background-color: rgb(117, 199, 243);
+    background-color: #59e3c8;
     background-image: (rgb(30, 143, 236),rgb(183, 255, 248));
     align-items: center;
     height: 100%;
@@ -26,19 +27,18 @@ body, html {
     margin-top:-15px;
 }
 .main{
-background-color: rgb(172, 216, 218);
-position: relative;
+background-color: rgb(125, 230, 236);
+
+
 }
 .islands{
-    font-family: 'Rubik';
-
-    position:absolute;
+    font-family:'Rubik';
     text-align: center;
 
 }
 .topnav{
-    font-family: 'Rubik';
-    background-color: #1abc9c;
+    font-family: 'Staatliches', sans-serif;
+    background-color: #59e3c8;
     text-align:left;
     color:black;
     flex: 1;
@@ -49,24 +49,28 @@ position: relative;
 .tablink{
     background-color: rgb(105, 105, 222);
     color:rgb(255, 255, 255);
-    width: 20%;
+    height:50px;
+    size:20px;
     float: left;
+    width:20%;
+    text-size-adjust: 100px;
+  
 }
 head {
-    font-family: 'Rubik';
+    font-family: 'Staatliches', sans-serif;
     text-align: center;
-    background: #1abc9c;
+    background: #59e3c8;
     color: white;
     font-size:60px;
   }
 
 h3{    
-    font-family: 'Rubik';
+    font-family: 'Staatliches', sans-serif;
     font-size:60px;
 
 }
 h1{
-    font-family: 'Rubik';
+    font-family: 'Staatliches', sans-serif;
     font-size:80px;
     color:rgb(28, 28, 95);
     
@@ -102,10 +106,12 @@ p{
 #Finance{
     background-color: rgb(181, 181, 255);
 }
-.tamuHACK{
+.final{
     background-color: rgb(105, 105, 222);
-    color:rgb(255, 255, 255);
-    width: 20%;
-    float: left;
+    size:20px;
     font-family: 'Rubik';
+}
+.tamuHack{
+    background-color:#1abc9c;
+    size:15px;
 }

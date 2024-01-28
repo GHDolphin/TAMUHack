@@ -7,12 +7,9 @@
     <title>Find your future!</title>
     <meta charset = "utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="testing.js">
-    <style>
-
-    </style>
     </div>
 </head>
 
@@ -20,62 +17,63 @@
 
 <body>
     <div class = "topnav">
-        <a class="active" href="#home">Home</a>
+        <h1 class="cool-title">FutureU</h1>
+        <h2 class="small-title">Discover the choices, choose your path</h2>
     </div>
     <div class="main">
-        <img border="0" src="BackgroundImage.png" alt""")>
+        <!-- <img class="test" src="BackgroundImage.png" alt""")> -->
         <div class="islands">
             <h1>Find your future!</h1>
             <h2>Explore careers!</h2>
-    
             <p>What would you like to learn about?</p>
-            
-            <button class="tablink">
-                <img src =  alt""">
-            </button>
-            <button class="tablink"
-                <img src =  alt""">
+            <button class="tablink" onclick="openPage('Science')">Science</button>
+            <button class="tablink" onclick="openPage('Technology')">Technology</button>
+            <button class="tablink" onclick="openPage('Engineering')">Engineering</button>
+            <button class="tablink" onclick="openPage('Math')">Math</button>
+            <button class="tablink" onclick="openPage('Finance')">Finance</button>
 
-            </button>
-            <button class="tablink"
-            <img src =  alt""">
-
-             </button>
-            <button class="tablink"
-                 <img src =  alt""">
-            </button>
-            <button class="tablink"
-                <img src =  alt""">
-            </button>
-            <button class="tablink"
-                <img src =  alt""">
-
-            </button>
-           
-                <h3>Science</h3>
-                <p>Test 1            </p>
+            <div id="Science" class = "content">
+                <h3>S   c   i   e   n   c   e</h3>
+                <div class="science">
+                    
+                </div>
+                <p>Test 1 </p>
     
             </div>
             <div id = "Technology" class ="content">
-                <h3>Technology</h3>
-                <p>Test 2            </p>
+                <h3>T   e   c   h   n   o   l   o   g   y</h3>
+                <p>Test 2</p>
     
             </div>
             <div id = "Engineering" class ="content">
-                <h3>Engineering</h3>
-                <p>Test 3           </p>
+                <h3>E   n   g   i   n   e   e   r   i   n   g</h3>
+                <p>Test 3</p>
     
             </div>
-            <div id = "Mathematics" class ="content">
-                <h3>Mathematics</h3>
-                <p>Test 4            </p>
+            <div id = "Math" class ="content">
+                <h3>M   a   t   h   e   m   a   t   i   c   s</h3>
+                <p>Test 4</p>
     
             </div>
             <div id = "Finance" class ="content">
-                <h3>Finance</h3>
-                <p>Test 5            </p>
+                <h3>F   i   n   a   n   c   e</h3>
+                <p>Test 5</p>
     
             </div>
+            <script>
+                function openPage(name, element, color){
+                    tabcontent = document.getElementsByClassName("content");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].style.backgroundColor = "";
+                    }
+                    document.getElementById(name).style.display = "block";
+}
+                
+            </script>
             <footer>
                 <p>TAMUHack BY TEAM</p>
                 <div class = "main" id = "botnav">

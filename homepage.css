@@ -229,6 +229,7 @@ p{
 
 >>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
 }
+
 .block2img {
     height: 100px;
     width: 100px;
@@ -249,6 +250,12 @@ p{
     height: 200px;
 
 >>>>>>> 60a7bb40198bbbf5529bb6830d3a7ea09b91f162
+}
+
+.modal1{
+    right:450px;
+    bottom:50px;
+
 }
 .mymodal{
     top: 100px;

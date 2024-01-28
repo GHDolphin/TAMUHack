@@ -33,9 +33,21 @@ body {
 }
 
 .blockimg
-{
+{   position: relative;
     height: 50px;
     width: 50px;
+    top: -285px;
+    left: 287px;
+}
+
+.newblocking{
+    
+    position: relative;
+    height: 50px;
+    width: 53px;
+    top: 4px;
+    left: 238px
+
 }
 .block2{
     position: relative;
@@ -67,6 +79,10 @@ body {
 
     
 
+}
+
+.modal1{
+    top: 1;
 }
 
 /* The Modal (background) */
